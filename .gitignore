@@ -1,0 +1,26 @@
+# Ignore global files (for user-specific Visual Studio files)
+.vs/
+.vscode/
+.vscode/*
+
+# Ignore logs
+**/*.log
+
+# Ignore solution file
+*.sln
+*.sln.iml
+
+# Ignore db file
+*.db
+
+# Ignore build outputs
+# Ignore all bin and obj folders across all subdirectories
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/con
+
+# Ignore MacOS Desktop Services Store files
+.DS_Store
+**/.DS_Store
